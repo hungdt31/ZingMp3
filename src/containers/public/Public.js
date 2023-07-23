@@ -3,11 +3,11 @@ import { Outlet } from "react-router";
 import { SidebarLeft, SidebarRight } from "../../components";
 function Public() {
     return (  
-        <div className="w-full flex overflow-y-auto">
+        <div className="w-full flex">
             <div className="w-[240px] flex-none ">
                 <SidebarLeft/>
             </div>
-            <div className="flex-auto border border-red-500">
+            <div className="flex-auto bg-[#170f24]">
                 <Outlet/>
             </div>
             <div className="w-[329px] flex-none border border-blue-500">
