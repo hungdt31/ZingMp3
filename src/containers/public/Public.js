@@ -10,7 +10,7 @@ function Public() {
             <div className="flex-auto bg-[#170f24]">
                 <Outlet/>
             </div>
-            <div className="w-[329px] flex-none border border-blue-500">
+            <div className="w-[329px] flex-none border border-blue-500 bg-[#120821]">
                 <SidebarRight/>
             </div>
         </div>
