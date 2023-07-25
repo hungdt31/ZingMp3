@@ -2,6 +2,7 @@ import  {MdOutlineLibraryMusic, MdRadio, MdOutlineStackedLineChart,MdCyclone} fr
 import {RiUserFollowLine} from 'react-icons/ri'
 import {FaArrowLeftLong, FaArrowRightLong} from 'react-icons/fa6'
 import {TbDatabaseSearch} from 'react-icons/tb'
+import {SlArrowLeft,SlArrowRight} from 'react-icons/sl'
 const icons = {
     MdOutlineLibraryMusic,
     MdOutlineStackedLineChart,
@@ -10,6 +11,8 @@ const icons = {
     RiUserFollowLine,
     FaArrowLeftLong,
     FaArrowRightLong,
-    TbDatabaseSearch
+    TbDatabaseSearch,
+    SlArrowLeft,
+    SlArrowRight
 }
 export default icons
